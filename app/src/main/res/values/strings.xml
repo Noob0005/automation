@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyRemote Admin</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="complete_setup">Complete Setup</string>
+    <string name="grant_permissions">Grant Permissions</string>
+    <string name="device_key">Device Key</string>
+    <string name="service_running">Remote Admin Service Running</string>
+    <string name="accessibility_service_description">Allows remote control via tap, swipe, and type commands from the web console</string>
+</resources>
