@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyRemote Admin</string>
+    
+    <!-- Wizard Screens -->
+    <string name="welcome_title">Welcome to MyRemote Admin</string>
+    <string name="welcome_subtitle">Complete the setup to enable remote administration of this device</string>
+    <string name="welcome_start">Start Setup</string>
+    
+    <string name="permission_guide_title">Permissions Required</string>
+    <string name="permission_guide_desc">This app needs several permissions to function properly</string>
+    <string name="permission_location">Location - Track device location</string>
+    <string name="permission_camera">Camera - Take photos remotely</string>
+    <string name="permission_audio">Microphone - Record audio remotely</string>
+    <string name="permission_storage">Storage - Access and manage files</string>
+    <string name="permission_notification">Notification Access - Monitor notifications</string>
+    <string name="grant_permissions">Grant Permissions</string>
+    
+    <string name="accessibility_title">Accessibility Service</string>
+    <string name="accessibility_desc">Enable accessibility service for remote control gestures</string>
+    <string name="accessibility_instruction">1. Find \"MyRemote Admin\" in the list\n2. Toggle it ON\n3. Confirm the warning</string>
+    <string name="open_accessibility">Open Accessibility Settings</string>
+    
+    <string name="notification_access_title">Notification Access</string>
+    <string name="notification_access_desc">Allow notification monitoring for complete device visibility</string>
+    <string name="open_notification_access">Open Notification Access</string>
+    
+    <string name="file_access_title">File Access</string>
+    <string name="file_access_desc">Grant file access permission to manage device files</string>
+    <string name="open_file_settings">Open File Settings</string>
+    
+    <string name="battery_opt_title">Battery Optimization</string>
+    <string name="battery_opt_desc">Disable battery optimization to ensure continuous operation</string>
+    <string name="disable_battery_opt">Disable Battery Optimization</string>
+    
+    <string name="device_admin_title">Device Administrator</string>
+    <string name="device_admin_desc">Activate device administrator for enhanced control</string>
+    <string name="activate_device_admin">Activate Device Admin</string>
+    
+    <string name="key_gen_title">Device Key Generation</string>
+    <string name="key_gen_desc">A unique 32-character key will be generated for secure communication</string>
+    <string name="key_label">Your Device Key:</string>
+    <string name="key_copy">Copy Key</string>
+    <string name="key_generate">Generate Key</string>
+    
+    <string name="oem_whitelist_title">OEM Whitelist</string>
+    <string name="oem_whitelist_desc">Some manufacturers require additional steps to keep services running</string>
+    <string name="oem_instruction">Check if your manufacturer requires special settings:\n• Xiaomi: Auto-start permission\n• Huawei: Protected apps\n• OnePlus: Battery optimization exceptions\n• Samsung: Adaptive battery exceptions</string>
+    <string name="open_oem_settings">Open Manufacturer Settings</string>
+    
+    <string name="setup_complete">Setup Complete!</string>
+    <string name="setup_complete_desc">Your device is now ready for remote administration</string>
+    <string name="enter_web_key">Enter this key in your web console to connect</string>
+    <string name="finish_setup">Finish</string>
+    
+    <!-- Common -->
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="skip">Skip</string>
+    <string name="done">Done</string>
+    <string name="enabled">Enabled ✓</string>
+    <string name="not_enabled">Not Enabled</string>
+    <string name="checking">Checking…</string>
+    
+    <!-- Status -->
+    <string name="status_online">Online</string>
+    <string name="status_offline">Offline</string>
+    <string name="service_running">Service Running</string>
+    <string name="service_stopped">Service Stopped</string>
+</resources>

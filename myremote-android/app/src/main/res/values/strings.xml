@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyRemote Admin</string>
+    
+    <!-- Wizard Screens -->
+    <string name="wizard_welcome_title">Welcome to MyRemote Admin</string>
+    <string name="wizard_welcome_desc">This app allows remote administration of your device. You\'ll need to grant several permissions for full functionality.</string>
+    <string name="wizard_start">Get Started</string>
+    
+    <string name="wizard_permissions_title">Required Permissions</string>
+    <string name="wizard_permissions_desc">We need various permissions to enable remote control features including location, camera, microphone, and file access.</string>
+    <string name="wizard_grant_permissions">Grant Permissions</string>
+    
+    <string name="wizard_accessibility_title">Accessibility Service</string>
+    <string name="wizard_accessibility_desc">Enable Accessibility Service to allow remote tap, swipe, and text input gestures.</string>
+    <string name="wizard_enable_accessibility">Enable Accessibility</string>
+    
+    <string name="wizard_notification_title">Notification Access</string>
+    <string name="wizard_notification_desc">Grant notification access to monitor and manage notifications remotely.</string>
+    <string name="wizard_enable_notifications">Enable Notification Access</string>
+    
+    <string name="wizard_files_title">File Access</string>
+    <string name="wizard_files_desc">Grant file access to browse and manage files on your device remotely.</string>
+    <string name="wizard_grant_files">Grant File Access</string>
+    
+    <string name="wizard_battery_title">Battery Optimization</string>
+    <string name="wizard_battery_desc">Disable battery optimization to ensure the service runs continuously in the background.</string>
+    <string name="wizard_disable_battery">Disable Battery Optimization</string>
+    
+    <string name="wizard_admin_title">Device Administrator</string>
+    <string name="wizard_admin_desc">Activate device administrator privileges for enhanced control capabilities.</string>
+    <string name="wizard_activate_admin">Activate Device Admin</string>
+    
+    <string name="wizard_key_title">Device Key Generation</string>
+    <string name="wizard_key_desc">A unique 32-character key will be generated. You\'ll need to enter this key in the web console to connect.</string>
+    <string name="wizard_generate_key">Generate Key</string>
+    
+    <string name="wizard_oem_title">OEM Whitelist</string>
+    <string name="wizard_oem_desc">Some manufacturers require additional steps to keep services running. Check if your device needs special configuration.</string>
+    <string name="wizard_check_oem">Check OEM Settings</string>
+    <string name="wizard_complete">Complete Setup</string>
+    
+    <!-- Common -->
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="skip">Skip</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    <string name="granted">Granted</string>
+    <string name="denied">Denied</string>
+    
+    <!-- Device Key -->
+    <string name="device_key_label">Your Device Key</string>
+    <string name="device_key_copy">Copy Key</string>
+    <string name="device_key_copied">Key copied to clipboard</string>
+    
+    <!-- Status -->
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_service_running">Service Running</string>
+    <string name="status_service_stopped">Service Stopped</string>
+</resources>

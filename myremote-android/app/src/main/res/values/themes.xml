@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.MyRemoteAdmin" parent="Theme.Material3.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+
+    <style name="WizardButtonStyle" parent="Widget.Material3.Button">
+        <item name="android:minHeight">56dp</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="StatusChipStyle" parent="Widget.Material3.Chip.Assist">
+        <item name="chipBackgroundColor">@color/success</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

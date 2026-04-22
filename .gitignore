@@ -1,0 +1,54 @@
+```
+# Android build outputs
+*.apk
+*.aar
+*.so
+*.dex
+*.class
+
+# Android build directories
+build/
+.gradle/
+app/build/
+myremote-android/app/build/
+
+# Android local properties
+local.properties
+
+# Android IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Gradle
+.gradle/
+gradle-wrapper.jar
+
+# Kotlin
+*.kotlin_metadata
+
+# Web console dependencies
+node_modules/
+
+# Web console build output
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+*.swp
+```
