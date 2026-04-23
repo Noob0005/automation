@@ -70,7 +70,7 @@ dependencies {
     implementation("com.google.firebase:firebase-auth-ktx")
 
     // Security
-    implementation("androidx.security:security-crypto:1.1..0-alpha06")
+    implementation("androidx.security:security-crypto:1.1.0-alpha06")
 
     // WebRTC for screen sharing
     implementation("org.webrtc:google-webrtc:1.0.32006")
