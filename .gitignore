@@ -2,21 +2,45 @@
 # Gradle
 .gradle/
 build/
-target/
+.libs/
+
+# Android
+*.apk
+*.aar
+*.iml
+local.properties
+
+# IDE
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Logs
-*.log
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
-# Temporary files
-*.tmp
-*.swp
-
-# IDE
-.vscode/
-.idea/
+# Python (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.nox/
 ```
