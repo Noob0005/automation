@@ -61,26 +61,26 @@ jobs:
         echo "::warning::Created placeholder google-services.json - Replace with your actual Firebase config!"
       
     - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
+      run: cd myremote-android && chmod +x gradlew
       
     - name: Build Debug APK
-      run: ./gradlew assembleDebug --no-daemon
+      run: cd myremote-android && ./gradlew assembleDebug --no-daemon
       
     - name: Upload Debug APK Artifact
       uses: actions/upload-artifact@v4
       with:
         name: myremote-admin-debug-apk
-        path: app/build/outputs/apk/debug/app-debug.apk
+        path: myremote-android/app/build/outputs/apk/debug/app-debug.apk
         retention-days: 30
         
     - name: Build Release APK (Unsigned)
-      run: ./gradlew assembleRelease --no-daemon
+      run: cd myremote-android && ./gradlew assembleRelease --no-daemon
       
     - name: Upload Release APK Artifact
       uses: actions/upload-artifact@v4
       with:
         name: myremote-admin-release-unsigned-apk
-        path: app/build/outputs/apk/release/app-release-unsigned.apk
+        path: myremote-android/app/build/outputs/apk/release/app-release-unsigned.apk
         retention-days: 30
         
     - name: Build Summary
